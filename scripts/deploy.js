@@ -1,5 +1,4 @@
 const fs = require("fs");
-const { artifacts } = require("hardhat");
 const path = require("path");
 
 const main = async () => {
@@ -13,24 +12,19 @@ const main = async () => {
   saveJSONFile("Todo", todo);
 };
 
-const saveJSONFile = (contract, data) => {
+const saveJSONFile = (contracts, data) => {
   const contracts_data = path.join(__dirname, "..", "contract_data");
+  console.log(contracts_data);
+  const Todo = {
+    address: data.address,
+    abi: data.interface.format("json"),
+  };
 
   if (!fs.existsSync(contracts_data)) {
     fs.mkdirSync("contract_data");
   }
 
-  fs.writeFileSync(
-    contracts_data + "\\todo-address" + ".json",
-    JSON.stringify({ address: data.address }, undefined, 2)
-  );
-
-  const readContractArtifact = artifacts.readArtifactSync(contract);
-
-  fs.writeFileSync(
-    contracts_data + "\\todo" + ".json",
-    JSON.stringify(readContractArtifact, null, 2)
-  );
+  fs.writeFileSync(contracts_data + "\\Todo" + ".json", JSON.stringify(Todo));
 };
 
 main().catch((error) => {
