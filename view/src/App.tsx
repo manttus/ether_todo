@@ -18,16 +18,7 @@ const App = () => {
     setIsLoading(false);
   };
 
-  const loadContracts = async () => {
-    const provider = new ethers.providers.Web3Provider(window.ethereum);
-    const signer = provider.getSigner();
-    const todoContract = new ethers.Contract(
-      TodoContract.address,
-      TodoContract.abi,
-      signer
-    );
-    console.log(todoContract);
-  };
+  const loadContracts = async () => {};
   return (
     <TodoPage
       connectWallet={connectWallet}
