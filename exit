@@ -1,0 +1,88 @@
+[33mcommit 294e5db20f25b8f0cc5be2359c6d591141226632[m[33m ([m[1;36mHEAD -> [m[1;32mtodoPage[m[33m)[m
+Author: Raymon <rbasnyat666@gmail.com>
+Date:   Tue Jan 31 17:49:51 2023 +0545
+
+    create separate json file for address & abi
+
+[33mcommit b776e928d0ef402c789561a90e3ff918e4dc68e9[m
+Author: Raymon <rbasnyat666@gmail.com>
+Date:   Tue Jan 31 17:40:54 2023 +0545
+
+    create connection with metamask
+
+[33mcommit 307e587d191ebd16cdd73a90254b536c913c0132[m[33m ([m[1;31morigin/todoPage[m[33m)[m
+Author: Raymon <rbasnyat666@gmail.com>
+Date:   Tue Jan 31 16:53:40 2023 +0545
+
+    create todo list page
+
+[33mcommit 935350185c7b71e85167a75b7e9a80c586c66768[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: Raymon <rbasnyat666@gmail.com>
+Date:   Tue Jan 31 12:45:34 2023 +0545
+
+    intial frontend
+
+[33mcommit 07e93434dbdf929c9934dafa0194f3dd1c0c1997[m
+Author: Raymon Bikram Basnyat <113007429+manttus@users.noreply.github.com>
+Date:   Tue Jan 31 11:45:20 2023 +0545
+
+    Delete Todo.json
+    
+    delete contract data from the repo
+
+[33mcommit ed63f8cbaf1e16fb66bac2259a452d597b1e11eb[m
+Merge: 79bd2b6 c0ce7a1
+Author: Raymon Bikram Basnyat <113007429+manttus@users.noreply.github.com>
+Date:   Tue Jan 31 11:42:46 2023 +0545
+
+    Merge pull request #3 from manttus/deployContract
+    
+    create deploy script & add Contract Address with Contract ABI
+
+[33mcommit c0ce7a186a776bbcf0ac5fc3a3554ef128b2649c[m[33m ([m[1;31morigin/deployContract[m[33m, [m[1;32mdeployContract[m[33m)[m
+Author: Raymon <rbasnyat666@gmail.com>
+Date:   Tue Jan 31 11:41:31 2023 +0545
+
+    create deploy script & add Contract Adress with Contract ABI
+
+[33mcommit 79bd2b605b8630c288cf8ac707f2689fd60ea09c[m
+Merge: 7440710 e726c1b
+Author: Raymon Bikram Basnyat <113007429+manttus@users.noreply.github.com>
+Date:   Mon Jan 30 17:15:12 2023 +0545
+
+    Merge pull request #2 from manttus/deployContract
+    
+    add deploy script
+
+[33mcommit e726c1bd70f2325fa81e13e31a27814af25ed0b7[m
+Author: Raymon <rbasnyat666@gmail.com>
+Date:   Mon Jan 30 17:14:02 2023 +0545
+
+    add deploy script
+
+[33mcommit 7440710b62cfc802d21d075cbb50e9f8d0a7bcb6[m
+Author: Raymon Bikram Basnyat <113007429+manttus@users.noreply.github.com>
+Date:   Mon Jan 30 00:43:48 2023 +0545
+
+    Update README.md
+
+[33mcommit 25f54b0b7f5ae478cd597e3e4ae10485f737fb5f[m
+Merge: 5e472dc dd09e2d
+Author: Raymon Bikram Basnyat <113007429+manttus@users.noreply.github.com>
+Date:   Mon Jan 30 00:43:05 2023 +0545
+
+    Merge pull request #1 from manttus/todoContract
+    
+    write Todo Smart Contract with Testing
+
+[33mcommit dd09e2ded06a605e73cf6a206155ac6dec98d878[m[33m ([m[1;31morigin/todoContract[m[33m, [m[1;32mtodoContract[m[33m)[m
+Author: Raymon <rbasnyat666@gmail.com>
+Date:   Mon Jan 30 00:42:09 2023 +0545
+
+    write Todo Smart Contract with Testing
+
+[33mcommit 5e472dcdc9873425828ce4a07f0da3511602174d[m
+Author: Raymon <rbasnyat666@gmail.com>
+Date:   Sun Jan 29 23:13:48 2023 +0545
+
+    initial commit
