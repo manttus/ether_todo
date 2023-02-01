@@ -9,8 +9,8 @@ const TodoPage = (props: WalletData) => {
       <Navbar connectWallet={props.connectWallet} address={props.address} />
       {props.address ? (
         <>
-          <TodoForm />
-          <TodoList />
+          <TodoForm addTodo={props.addTodo} />
+          <TodoList todoList={props.tasks} markTodo={props.markTodo} />
         </>
       ) : (
         <div className="flex h-full justify-center  items-center">

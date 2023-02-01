@@ -5,6 +5,7 @@ contract Todo {
     uint256 private indi = 0;
 
     struct TodoItem {
+        uint256 _id;
         string todo;
         bool isComplete;
     }
@@ -13,7 +14,7 @@ contract Todo {
 
     // function to add new todo list
     function addTodo(string memory todo) external {
-        todoItems[indi] = TodoItem(todo, false);
+        todoItems[indi] = TodoItem(indi, todo, false);
         indi++;
     }
 
