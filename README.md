@@ -1,2 +1,2 @@
-# Ether Todo
+# ether_todo
 
